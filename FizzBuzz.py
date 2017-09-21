@@ -1,14 +1,14 @@
 #Fizz - Buzz Challenge
 
-for x in range(1, 101):
-    if x % 3 == 0 and x % 5 == 0:
+for a in range(1, 101):
+    if a % 3 == 0 and a % 5 == 0:
         print "FizzBuzz"
 
-    elif x % 3 == 0:
+    elif a % 3 == 0:
         print "Fizz"
 
-    elif x % 5 == 0:
+    elif a % 5 == 0:
         print "Buzz"
 
     else:
-        print(x)
+        print a
